@@ -14,6 +14,7 @@ PUBLIC = CONTENT / "public"
 UNLISTED = CONTENT / "unlisted"
 SITE = ROOT / "site"
 ARTIFACTS = CONTENT / "artifacts.json"
+CUSTOM_DOMAIN = "knowledge.11tech.xyz"
 
 
 def copytree(src: Path, dst: Path) -> None:
@@ -145,6 +146,7 @@ def main() -> int:
         shutil.rmtree(SITE)
     SITE.mkdir(parents=True)
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
+    (SITE / "CNAME").write_text(f"{CUSTOM_DOMAIN}\n", encoding="utf-8")
 
     artifacts = load_artifacts()
     public_items: list[dict[str, object]] = []

@@ -2,6 +2,8 @@
 
 Generated HTML knowledge pages and slide decks.
 
+Live site: <https://knowledge.11tech.xyz/>
+
 Production content is built from `content/public/` and deployed with GitHub
 Pages. Unlisted content can live under `content/unlisted/` and be published
 under hash-like URLs without appearing in the gallery.

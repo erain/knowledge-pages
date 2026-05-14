@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Self-Updating GitHub Profile",
+    "slug": "self-updating-github-profile",
+    "kind": "deck",
+    "visibility": "public",
+    "summary": "A compact system for keeping a GitHub profile README fresh with GitHub Actions, GitHub activity, and optional OpenRouter copy refinement.",
+    "tags": [
+      "github",
+      "automation",
+      "agents",
+      "openrouter"
+    ],
+    "updated": "2026-05-13"
+  }
+]

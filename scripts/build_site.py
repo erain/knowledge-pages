@@ -71,6 +71,7 @@ def build_index(public_items: list[dict[str, object]]) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Knowledge Pages</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23071014'/%3E%3Cpath d='M15 34h34M15 22h34M15 46h22' stroke='%2300add8' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
   <style>
     :root {{
       color-scheme: dark;
